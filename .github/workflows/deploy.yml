@@ -37,4 +37,4 @@ jobs:
         uses: aws-actions/aws-lambda-deploy@v1
         with:
           function-name: mentorLambdaPractice
-          code-artifacts-dir: ./
+          code-artifacts-dir: ./lambda-package
