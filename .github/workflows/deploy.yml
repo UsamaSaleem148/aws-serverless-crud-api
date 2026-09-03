@@ -24,7 +24,7 @@ jobs:
       - name: Prepare Lambda package
         run: |
           mkdir lambda-package
-          cp index.js package.json package-lock.json lambda-package/
+          cp index.js package.json lambda-package/
           cp -r node_modules lambda-package/
 
       - name: Configure AWS credentials
